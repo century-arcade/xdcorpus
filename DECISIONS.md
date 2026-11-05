@@ -1,0 +1,27 @@
+# Decisions
+
+A dated log of decisions about the corpus and its policies, newest first. One
+entry per decision: what was decided, and why, in a few lines. Earlier
+decisions live in the corpus repository's commit history and merge requests.
+
+## 2026-11-05
+
+- **A public home for the project.** The corpus gets a public repository,
+  `century-arcade/xdcorpus`, holding its policy documents, with the corpus
+  itself staying private. Reason: the policies could not be shown to
+  prospective contributors, users or institutions while they lived only in
+  the private repository. COLLECTION.md and EDITORIAL.md move here; the
+  operational documents (CONTRIBUTING.md, REVIEWING.md) stay with the corpus.
+  *(Agreed by both maintainers 2026-11-05. The repository name follows the organization's existing unhyphenated names: xdformat, xdcontrib, xdtalk.)*
+- **The name is "corpus", not "archive".** The corpus has been cited as the
+  xd Crossword Corpus since 2019; "archive" describes the scans and originals
+  (the Every Puzzle Project), while "corpus" describes the normalized research
+  collection and matches its terms of use.
+- **First preservation self-assessment.** Assessed against the Digital
+  Preservation Coalition's Rapid Assessment Model, version 3. Results in
+  [assessments/dpc-ram-2026.md](assessments/dpc-ram-2026.md). Priorities: a
+  second copy of the source archives, a written access policy, a written
+  preservation policy, and a yearly repeat.
+- **Governance model.** Two maintainers decide; a small group of advisors is
+  consulted yearly and has no vote; a successor custodian is to be named.
+  See [GOVERNANCE.md](GOVERNANCE.md).
