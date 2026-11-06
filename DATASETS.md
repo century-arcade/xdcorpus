@@ -117,10 +117,11 @@ answers beyond the first across and down, used as a grid hash. **[practice]**
 - **GitHub releases** keep the public-domain puzzle sets, as they do now.
   **[practice]**
 
-Every dataset card states the terms in one paragraph, links to this document
-and to [ACCESS.md](ACCESS.md), says how to cite the corpus (see
-[README.md](README.md#citing)), and carries the coverage table.
-**[proposed]**
+Every dataset card states the terms in one paragraph, links to this document,
+to [ACCESS.md](ACCESS.md), and to [AI.md](AI.md), the corpus's statement on
+AI, which sets the terms on using the data to train models; says how to cite
+the corpus (see [README.md](README.md#citing)); and carries the coverage
+table. **[proposed]**
 
 ## Publishers and constructors
 
