@@ -6,6 +6,9 @@ decisions live in the corpus repository's commit history and merge requests.
 
 ## 2026-11-06
 
+- **A DOI through Zenodo.** The Zenodo record describes the corpus as a
+  whole, but its files are the policy documents; the corpus stays private.
+  CC-BY-4.0 applies to the documents only, not to the puzzles.
 - **A statement on AI.** [AI.md](AI.md) says the corpus holds only
   human-made puzzles, discloses the maintainers' own use of AI tools, and
   proposes terms against using derived data or samples to generate
