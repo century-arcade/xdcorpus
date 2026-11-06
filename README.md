@@ -72,7 +72,7 @@ same corpus.
 
 ## Contact
 
-Open an issue in this repository, or find us on the Crossword Discord.
+Open an issue in this repository, or find us on [Discord](https://saul.pw/chat).
 
 
 ## Acknowledgments
