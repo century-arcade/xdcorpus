@@ -11,6 +11,20 @@ decisions live in the corpus repository's commit history and merge requests.
   proposes terms against using derived data or samples to generate
   crosswords for publication. Reason: concern in the crossword community,
   and publishing data on Hugging Face invites it to be consumed by models.
+- **Clue and answer data stays public.** `xd-clues.zip` and
+  `xd-metadata.zip` remain openly downloadable. Reason: they are already
+  published, they do not let a puzzle be rebuilt, and withdrawing them would
+  take away data researchers rely on. *(Saul's position.)* The rules for
+  derived data are in [DATASETS.md](DATASETS.md).
+- **Dataset venues.** Public derived data is published on Hugging Face,
+  under one organization, and on Kaggle as an equal home: the same snapshots
+  with the same card text, at the same time. The audience is researchers and
+  hobbyist programmers alike. Hugging Face also holds the public-domain sets
+  and the gated samples; Zenodo holds a record with a DOI for the corpus as a
+  whole; GitHub releases keep the public-domain puzzle sets. Samples of
+  modern puzzles stay available on request under [ACCESS.md](ACCESS.md), to
+  hobbyists and researchers alike, so a gated Hugging Face dataset is the
+  same process with a form. See [DATASETS.md](DATASETS.md).
 
 ## 2026-11-05
 
