@@ -6,14 +6,16 @@ already publish, **[proposed]** where it is new.*
 ## Purpose
 
 Most puzzles in the corpus are under copyright, and we do not publish them
-(see [ACCESS.md](ACCESS.md)). Much research does not need whole puzzles: it
-needs the words, the clues, who edited what and when. We publish data
-derived from the corpus so that this research can happen without anyone
-having to ask, and without redistributing anyone's puzzles.
+(see [ACCESS.md](ACCESS.md)). But much work with crosswords does not need
+whole puzzles: it needs the words, the clues, who edited what and when. The
+public data is for anyone who wants to study crosswords or build something
+with crossword data: researchers, and just as much hobbyist programmers,
+since the corpus and most of the crossword world are hobby projects. We
+publish it so that this can happen without anyone having to ask, and
+without redistributing anyone's puzzles.
 
 The principle behind every public dataset: **nothing we publish lets a
-copyrighted puzzle be rebuilt**, alone or combined with our other public
-data.
+copyrighted puzzle be rebuilt**.
 
 ## Three tiers
 
@@ -23,11 +25,9 @@ Complete puzzles that are out of copyright:
 
 - puzzles published before 1929, which are in the public domain in the
   United States; **[proposed]**
-- the 5,688 puzzles published before 1965 (5,633 from the New York Times,
-  1942 to 1964, with the 1924 Simon & Schuster books and some early
-  newspaper puzzles), which we believe are in the public domain because
-  their copyrights were not renewed, published as the
-  `puzzles-pre1965` release of
+- 5,688 puzzles published before 1965, mostly from the New York Times,
+  which we believe are in the public domain because their copyrights were
+  not renewed, published as the `puzzles-pre1965` release of
   [century-arcade/xd](https://github.com/century-arcade/xd/releases);
   **[practice]**
 - puzzles from *Judge* magazine digitized by the
@@ -51,21 +51,33 @@ Anyone can download them, from GitHub releases and Hugging Face.
   without the grid itself. **[proposed]**
 
 Anyone can download them, today from [xd.saul.pw/data](https://xd.saul.pw/data),
-and from Hugging Face once it is set up.
+and from Hugging Face and Kaggle once they are set up.
 
 ### (c) Gated
 
-Full modern puzzles, and researcher samples drawn from them (see "Samples"
-in [ACCESS.md](ACCESS.md)). These are published on Hugging Face as a gated
-dataset: each person asks, a maintainer approves them by name, and the
-[ACCESS.md](ACCESS.md) terms apply. This is the same process as a request by
-email, with a form; approval is personal and is recorded in the same way.
-**[proposed]**
+Samples of full modern puzzles (see "Samples" in [ACCESS.md](ACCESS.md)).
+
+- **A random sample of 1,000 puzzles**, drawn across the whole corpus, with
+  full `.xd` content. It is fixed and versioned: the same puzzles every
+  time, so results can be compared. A researcher building a crossword
+  solver already has it.
+  **[practice]**
+- Variations can follow on request: a sample stratified by decade or by
+  publication, a date-split benchmark (older puzzles for training, recent
+  ones for testing), and larger samples. **[proposed]**
+
+These are published on Hugging Face as gated datasets: each person asks, a
+maintainer approves them by name, and the [ACCESS.md](ACCESS.md) terms
+apply, including the rule against delivering puzzles to solvers. This is
+the same process as a request by email, with a form, and hobbyists apply the
+same way as researchers. **[proposed]**
+
+The full corpus is not a dataset. It stays available only by direct
+arrangement under [ACCESS.md](ACCESS.md).
 
 ## Rules for derived data
 
-Every tier (b) dataset follows these rules. **[proposed]** except where
-marked.
+Tier (b) follows these rules, **[proposed]** unless marked.
 
 - **No grids, no clue numbers.** A clue row does not say where its answer
   sits in a grid, or which clue it was. **[practice]**
@@ -78,30 +90,26 @@ marked.
   published, so a contest is not spoiled before its answers are. **[practice]**
 - **A minimum cell size.** A publication-year with fewer than 5 puzzles is
   too small to hide which clue came from which puzzle. Its rows are merged
-  into a coarser cell (the publication's decade) or dropped. The threshold
-  of 5 is a proposal for the maintainers to settle.
-- **A coverage table.** Coverage is very uneven: some publications are
-  complete for decades, others are a handful of puzzles. Every dataset card
-  carries a table of puzzle counts by publication and decade, so users do not
-  mistake the corpus for a sample of all crosswords.
+  into a coarser cell (the publication's decade) or dropped.
+- **A coverage table.** Coverage is very uneven, so every dataset card
+  carries a table of puzzle counts by publication and decade.
 
-Metadata in `puzzles.tsv` is per puzzle and carries full dates; it contains
-no clues, answers or grids beyond the first across and down answers used as
-a grid hash. **[practice]**
+`puzzles.tsv` is per puzzle and carries full dates, but no clues, and no
+answers beyond the first across and down, used as a grid hash. **[practice]**
 
 ## Where and how
 
-- **Hugging Face** is the primary venue, under one organization (name to be
-  decided; we propose `xdcorpus`). It holds tier (a), tier (b) and the gated
-  tier (c). **[proposed]**
-- **Snapshots, not streams.** Hugging Face datasets are versioned snapshots,
-  published quarterly, not rebuilt nightly, so that a result can name the
-  version it used. **[proposed]**
+- **Hugging Face**, under one organization (name to be decided; we propose
+  `xdcorpus`), holds tiers (a), (b) and the gated tier (c). **[proposed]**
+- **Kaggle**, equally, holds tier (b): the same snapshots with the same card
+  text, published at the same time as on Hugging Face. **[proposed]**
+- **Snapshots, not streams.** Datasets are versioned snapshots, published
+  quarterly, not rebuilt nightly, so that a result can name the version it
+  used. **[proposed]**
 - **Zenodo** holds one record for the corpus as a whole, with a DOI for
   citing it, pointing at the corpus page. **[proposed]**
 - **GitHub releases** keep the public-domain puzzle sets, as they do now.
   **[practice]**
-- **Kaggle**, later, only as a mirror of tier (b). **[proposed]**
 
 Every dataset card states the terms in one paragraph, links to this document
 and to [ACCESS.md](ACCESS.md), says how to cite the corpus (see
@@ -115,10 +123,8 @@ tier (a) or tier (c), as described in [CONTRIBUTING.md](CONTRIBUTING.md).
 The puzzles are removed from the next snapshot, and gated users are asked to
 delete their copies.
 
-A tier (b) row cannot be traced to one puzzle, so there is nothing
-puzzle-level to remove. A publication can still ask to be left out of
-future snapshots, and we will do so. Snapshots already published stay as
-they are. **[proposed]**
+A tier (b) row cannot be traced to one puzzle, but a publication can ask
+to be left out of future snapshots, and we will do so. **[proposed]**
 
 ## Review
 
