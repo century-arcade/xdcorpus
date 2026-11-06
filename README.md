@@ -43,6 +43,8 @@ are welcome too; see the end of that page.
 - [EDITORIAL.md](EDITORIAL.md): what a corpus puzzle contains and how it is
   represented.
 - [ACCESS.md](ACCESS.md): who may use the corpus, how, and on what terms.
+- [DATASETS.md](DATASETS.md): what datasets the corpus publishes, where,
+  and the rules they follow.
 - [PRESERVATION.md](PRESERVATION.md): how the corpus is kept, and what we
   commit to.
 - [GOVERNANCE.md](GOVERNANCE.md): who maintains the corpus and how decisions are
