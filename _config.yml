@@ -1,0 +1,24 @@
+# GitHub Pages site for the xd Crossword Corpus: https://centuryarcade.org/xdcorpus/
+#
+# README.md is the front page (jekyll-readme-index, on by default on GitHub
+# Pages), and every other .md file is published as .html with its relative
+# links rewritten (jekyll-optional-front-matter, jekyll-relative-links).
+# The schema.org Dataset metadata is in _includes/head-custom.html.
+
+title: The xd Crossword Corpus
+description: >-
+  More than 160,000 published crosswords from over 160 publications, 1913 to
+  today, kept in plain text for research and preservation.
+url: https://centuryarcade.org
+baseurl: /xdcorpus
+lang: en-US
+theme: jekyll-theme-primer
+# Short subtitle for the front page's <title>; without it jekyll-seo-tag
+# appends the whole description.
+tagline: Published crosswords, 1913 to today
+
+# Serve the .md files only as rendered .html, not also as raw copies.
+optional_front_matter:
+  remove_originals: true
+readme_index:
+  remove_originals: true

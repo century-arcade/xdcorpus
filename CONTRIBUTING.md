@@ -1,3 +1,5 @@
+---
+---
 # Contributing puzzles
 
 *For editors, constructors and publishers. Draft, November 2026.*
