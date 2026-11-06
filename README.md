@@ -76,6 +76,8 @@ Use the year the corpus was accessed. Earlier work cited it as
 "Pwanson, Saul. (2019). xd Crossword Corpus. http://xd.saul.pw"; that is the
 same corpus.
 
+A DOI for the corpus is being registered with Zenodo; until then cite the address above.
+
 ## Contact
 
 Open an issue in [this repository](https://github.com/century-arcade/xdcorpus), or find us on [Discord](https://saul.pw/chat).
