@@ -4,6 +4,20 @@ A dated log of decisions about the corpus and its policies, newest first. One
 entry per decision: what was decided, and why, in a few lines. Earlier
 decisions live in the corpus repository's commit history and merge requests.
 
+## 2026-11-06
+
+- **Clue and answer data stays public.** `xd-clues.zip` and
+  `xd-metadata.zip` remain openly downloadable. Reason: they are already
+  published, they do not let a puzzle be rebuilt, and withdrawing them would
+  take away data researchers rely on. *(Saul's position.)* The rules for
+  derived data are in [DATASETS.md](DATASETS.md).
+- **Dataset venues.** Hugging Face is the primary venue, under one
+  organization; Zenodo holds a record with a DOI for the corpus as a whole;
+  GitHub releases keep the public-domain puzzle sets; Kaggle comes later, as a
+  mirror of derived data only. Full modern puzzles stay available on request
+  for research under [ACCESS.md](ACCESS.md), so a gated Hugging Face dataset
+  is the same process with a form. See [DATASETS.md](DATASETS.md).
+
 ## 2026-11-05
 
 - **A public home for the project.** The corpus gets a public repository,
