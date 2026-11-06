@@ -28,17 +28,18 @@ Complete puzzles that are out of copyright:
   [Every Puzzle Project](https://github.com/EveryPuzzleProject)), the 1924
   Simon & Schuster book, and a few single puzzles. **[proposed]**
 - ***Judge*, 1931 to 1939**: about 300 puzzles. US copyright in works
-  published 1931 to 1963 lasted only if renewed in the 28th year, and we
-  believe these were not renewed. They are to be published once a check of
-  the renewal records is documented. **[proposed]**
-- **New York Times, 1942 to 1963**: 5,267 puzzles, published today as the
-  `puzzles-pre1965` release of
-  [century-arcade/xd](https://github.com/century-arcade/xd/releases), on
-  the belief that the Times did not renew its copyrights. That belief is
-  being checked against the renewal records; until the check is documented
-  they stay in the release but are not added to Hugging Face. Works from
-  1964 on were renewed automatically, so the release's 1964 puzzles are to
-  be removed from it. **[practice]**
+  published 1931 to 1963 lasted only if renewed in the 28th year, and a
+  check of the renewal records
+  ([assessments/copyright-renewal-2026.md](assessments/copyright-renewal-2026.md))
+  found no renewal of any *Judge* issue. **[proposed]**
+- **New York Times, 1942 to 1963**: not public domain. A check of the
+  renewal records ([assessments/copyright-renewal-2026.md](assessments/copyright-renewal-2026.md))
+  found that the Times renewed the copyright in every issue of those years,
+  so these 5,267 puzzles stay under copyright until 2037 to 2058. They
+  belong to tier (c), the gated tier, not here. The `puzzles-pre1965`
+  release of [century-arcade/xd](https://github.com/century-arcade/xd/releases)
+  published them on the belief that the Times had not renewed; the
+  maintainers are deciding what to do with that release. **[proposed]**
 
 Anyone can download them, from GitHub releases and Hugging Face.
 
