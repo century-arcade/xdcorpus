@@ -1,5 +1,7 @@
 # The xd Crossword Corpus
 
+Home of the corpus: https://centuryarcade.org/xdcorpus/
+
 The xd Crossword Corpus is the world's largest collection of crossword puzzles, with more than 160,000 published crosswords
 from over 160 publications (as of November 2026), from 1913 to today, kept in a plain-text format for
 research and preservation. Every puzzle is stored as one [`.xd` file](https://github.com/century-arcade/xdformat)
@@ -64,7 +66,7 @@ are welcome too; see the end of that page.
 If you publish research or results that use the corpus, please cite it:
 
 > Pwanson, Saul and DeJarnatt, Alex. (2026). *The xd Crossword Corpus.*
-> Century Arcade. https://github.com/century-arcade/xdcorpus
+> Century Arcade. https://centuryarcade.org/xdcorpus/
 
 Use the year the corpus was accessed. Earlier work cited it as
 "Pwanson, Saul. (2019). xd Crossword Corpus. http://xd.saul.pw"; that is the
@@ -72,7 +74,7 @@ same corpus.
 
 ## Contact
 
-Open an issue in this repository, or find us on [Discord](https://saul.pw/chat).
+Open an issue in [this repository](https://github.com/century-arcade/xdcorpus), or find us on [Discord](https://saul.pw/chat).
 
 
 ## Acknowledgments
