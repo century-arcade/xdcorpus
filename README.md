@@ -43,6 +43,8 @@ are welcome too; see the end of that page.
 - [EDITORIAL.md](EDITORIAL.md): what a corpus puzzle contains and how it is
   represented.
 - [ACCESS.md](ACCESS.md): who may use the corpus, how, and on what terms.
+- [AI.md](AI.md): the corpus's statement on AI, and the terms on using its
+  data to train models.
 - [PRESERVATION.md](PRESERVATION.md): how the corpus is kept, and what we
   commit to.
 - [GOVERNANCE.md](GOVERNANCE.md): who maintains the corpus and how decisions are

@@ -4,6 +4,14 @@ A dated log of decisions about the corpus and its policies, newest first. One
 entry per decision: what was decided, and why, in a few lines. Earlier
 decisions live in the corpus repository's commit history and merge requests.
 
+## 2026-11-06
+
+- **A statement on AI.** [AI.md](AI.md) says the corpus holds only
+  human-made puzzles, discloses the maintainers' own use of AI tools, and
+  proposes terms against using derived data or samples to generate
+  crosswords for publication. Reason: concern in the crossword community,
+  and publishing data on Hugging Face invites it to be consumed by models.
+
 ## 2026-11-05
 
 - **A public home for the project.** The corpus gets a public repository,
