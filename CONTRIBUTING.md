@@ -74,7 +74,7 @@ clippings, or a link to an online archive. Complete runs are ideal, but
 partial ones are welcome; gaps can be filled later. If you are not sure what
 you have, send a sample and we will tell you what we can do with it.
 
-Send it, or ask us anything, at xd@saul.pw. Large archives can be shared
+Send it, or ask us anything, at xd@centuryarcade.org. Large archives can be shared
 however is convenient for you.
 
 ## What you get back
