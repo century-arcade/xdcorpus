@@ -1,6 +1,6 @@
 # The xd Crossword Corpus
 
-The xd Crossword Corpus is a collection of more than 160,000 published crosswords
+The xd Crossword Corpus is the world's largest collection of crossword puzzles, with more than 160,000 published crosswords
 from over 160 publications (as of November 2026), from 1913 to today, kept in a plain-text format for
 research and preservation. Every puzzle is stored as one [`.xd` file](https://github.com/century-arcade/xdformat)
 holding its grid, clues, answers and publication details, together with a record
@@ -18,7 +18,7 @@ project of [Century Arcade](https://github.com/century-arcade).
 
 ## Use the corpus
 
-Many of the puzzles are still under copyright by their publishers and constructors, so the corpus
+Most of the puzzles in the corpus are still under copyright by their publishers and constructors, so the raw corpus
 itself is not public. It is available for research, in forms ranging from
 aggregate statistics to derived datasets to the full collection. See
 [ACCESS.md](ACCESS.md) for what data is available, how to ask, and the terms of use.
@@ -81,6 +81,6 @@ We owe a debt of gratitude to:
 
 - Barry Haldiman, for his diligent collection of thousands of puzzles from the 2000s and 2010s
 - David Steinberg and the [Pre-Shortzian Puzzle Project (PSPP)](https://www.preshortzianpuzzleproject.com/), for inspiration
-- Parker Higgins, for developing and maintaining [xword-dl](https://github.com/thisisparker/xword-dl), which has been indispensable for collection
+- [Parker Higgins](https://parkerhiggins.net/), for developing and maintaining [xword-dl](https://github.com/thisisparker/xword-dl), which has been indispensable for collection
 - The hundreds of editors and thousands of constructors who delight us with their creations.
-- [Arthur Wynne](https://tcampbell.substack.com/p/arthur-wynne), for kicking the whole thing off on December 21, 1913.
+- [Arthur Wynne](https://en.wikipedia.org/wiki/Arthur_Wynne), for kicking the whole thing off on [December 21, 1913](https://tcampbell.substack.com/p/arthur-wynne).
