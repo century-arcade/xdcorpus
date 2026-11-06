@@ -23,16 +23,22 @@ copyrighted puzzle be rebuilt**.
 
 Complete puzzles that are out of copyright:
 
-- puzzles published before 1929, which are in the public domain in the
-  United States; **[proposed]**
-- 5,688 puzzles published before 1965, mostly from the New York Times,
-  which we believe are in the public domain because their copyrights were
-  not renewed, published as the `puzzles-pre1965` release of
-  [century-arcade/xd](https://github.com/century-arcade/xd/releases);
-  **[practice]**
-- puzzles from *Judge* magazine digitized by the
-  [Every Puzzle Project](https://github.com/EveryPuzzleProject).
-  **[proposed]**
+- **Before 1931**: public domain in the United States outright. The
+  corpus holds about 700: *Judge* magazine 1924 to 1930 (digitized by the
+  [Every Puzzle Project](https://github.com/EveryPuzzleProject)), the 1924
+  Simon & Schuster book, and a few single puzzles. **[proposed]**
+- ***Judge*, 1931 to 1939**: about 300 puzzles. US copyright in works
+  published 1931 to 1963 lasted only if renewed in the 28th year, and we
+  believe these were not renewed. They are to be published once a check of
+  the renewal records is documented. **[proposed]**
+- **New York Times, 1942 to 1963**: 5,267 puzzles, published today as the
+  `puzzles-pre1965` release of
+  [century-arcade/xd](https://github.com/century-arcade/xd/releases), on
+  the belief that the Times did not renew its copyrights. That belief is
+  being checked against the renewal records; until the check is documented
+  they stay in the release but are not added to Hugging Face. Works from
+  1964 on were renewed automatically, so the release's 1964 puzzles are to
+  be removed from it. **[practice]**
 
 Anyone can download them, from GitHub releases and Hugging Face.
 
