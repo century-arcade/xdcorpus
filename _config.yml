@@ -22,3 +22,30 @@ optional_front_matter:
   remove_originals: true
 readme_index:
   remove_originals: true
+
+# Clean URLs: no .html, no capitals. Each policy page is served at a
+# lowercase directory URL (ACCESS.md -> /access/); the old UPPER.html address
+# redirects there (jekyll-redirect-from). Pages under assessments/ get
+# directory URLs from their already-lowercase file names.
+permalink: pretty
+plugins:
+  - jekyll-redirect-from
+defaults:
+  - scope: { path: "ACCESS.md" }
+    values: { permalink: /access/, redirect_from: [/ACCESS.html] }
+  - scope: { path: "AI.md" }
+    values: { permalink: /ai/, redirect_from: [/AI.html] }
+  - scope: { path: "COLLECTION.md" }
+    values: { permalink: /collection/, redirect_from: [/COLLECTION.html] }
+  - scope: { path: "CONTRIBUTING.md" }
+    values: { permalink: /contributing/, redirect_from: [/CONTRIBUTING.html] }
+  - scope: { path: "DATASETS.md" }
+    values: { permalink: /datasets/, redirect_from: [/DATASETS.html] }
+  - scope: { path: "DECISIONS.md" }
+    values: { permalink: /decisions/, redirect_from: [/DECISIONS.html] }
+  - scope: { path: "EDITORIAL.md" }
+    values: { permalink: /editorial/, redirect_from: [/EDITORIAL.html] }
+  - scope: { path: "GOVERNANCE.md" }
+    values: { permalink: /governance/, redirect_from: [/GOVERNANCE.html] }
+  - scope: { path: "PRESERVATION.md" }
+    values: { permalink: /preservation/, redirect_from: [/PRESERVATION.html] }
