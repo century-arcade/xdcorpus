@@ -1,4 +1,11 @@
-# The xd Crossword Corpus
+# The xd Crossword Corpus has moved
+
+The project home is now **https://centuryarcade.org/xd/**, and its policy documents
+live in the [century-arcade/xd](https://github.com/century-arcade/xd) repository under
+`docs/`. This repository is archived; every page of its old site redirects to the
+same page at the new address. The history of the documents' first drafts (November
+2026) is in this repository's commits and pull requests.
+
 
 Home of the corpus: https://centuryarcade.org/xdcorpus/
 
