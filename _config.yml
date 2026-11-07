@@ -24,28 +24,28 @@ readme_index:
   remove_originals: true
 
 # Clean URLs: no .html, no capitals. Each policy page is served at a
-# lowercase directory URL (ACCESS.md -> /access/); the old UPPER.html address
-# redirects there (jekyll-redirect-from). Pages under assessments/ get
-# directory URLs from their already-lowercase file names.
+# lowercase directory URL (ACCESS.md -> /access/). The old UPPER.html
+# addresses are kept as small redirect pages (ACCESS.html etc., and
+# assessments/*.html); every one of them points at redirect_base, so moving
+# the site is a one-line change here.
+redirect_base: https://centuryarcade.org/xdcorpus
 permalink: pretty
-plugins:
-  - jekyll-redirect-from
 defaults:
   - scope: { path: "ACCESS.md" }
-    values: { permalink: /access/, redirect_from: [/ACCESS.html] }
+    values: { permalink: /access/ }
   - scope: { path: "AI.md" }
-    values: { permalink: /ai/, redirect_from: [/AI.html] }
+    values: { permalink: /ai/ }
   - scope: { path: "COLLECTION.md" }
-    values: { permalink: /collection/, redirect_from: [/COLLECTION.html] }
+    values: { permalink: /collection/ }
   - scope: { path: "CONTRIBUTING.md" }
-    values: { permalink: /contributing/, redirect_from: [/CONTRIBUTING.html] }
+    values: { permalink: /contributing/ }
   - scope: { path: "DATASETS.md" }
-    values: { permalink: /datasets/, redirect_from: [/DATASETS.html] }
+    values: { permalink: /datasets/ }
   - scope: { path: "DECISIONS.md" }
-    values: { permalink: /decisions/, redirect_from: [/DECISIONS.html] }
+    values: { permalink: /decisions/ }
   - scope: { path: "EDITORIAL.md" }
-    values: { permalink: /editorial/, redirect_from: [/EDITORIAL.html] }
+    values: { permalink: /editorial/ }
   - scope: { path: "GOVERNANCE.md" }
-    values: { permalink: /governance/, redirect_from: [/GOVERNANCE.html] }
+    values: { permalink: /governance/ }
   - scope: { path: "PRESERVATION.md" }
-    values: { permalink: /preservation/, redirect_from: [/PRESERVATION.html] }
+    values: { permalink: /preservation/ }
